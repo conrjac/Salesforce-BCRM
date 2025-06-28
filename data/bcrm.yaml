@@ -1,0 +1,17 @@
+domains:
+  - name: Sales
+    capabilities:
+      - name: Lead Management
+        description: Manage and qualify leads.
+        products: [Sales Cloud, Marketing Cloud Account Engagement]
+        sub_capabilities:
+          - name: Lead Capture
+          - name: Lead Scoring
+      - name: Opportunity Management
+        description: Manage sales opportunities.
+        products: [Sales Cloud]
+  - name: Service
+    capabilities:
+      - name: Case Management
+        description: Manage customer service cases.
+        products: [Service Cloud, Field Service]
